@@ -11,7 +11,7 @@ body{
 }
 .rounded-image {
   border-radius: 15px; 
-  margin: 30px; 
+  margin: 18px; 
   width: 350px; 
   height: auto; 
   }
@@ -20,20 +20,20 @@ header{
     font-size:xx-large;
     padding: 15px;
 }
-.devinfo{
-  margin: 30px;
-}
 .navbar{
 background-color: gray;
 height: 15px;
 }
 p{
   padding: 8px;
-  margin: 8px;
+  margin: 10px;
 }
 @media (max-width: 768px) {
   p {
       font-size: 15px; 
+  }
+  .devinfo{
+    margin: 15px;
   }
   image-text-container {
     flex-direction: column; 
