@@ -36,16 +36,5 @@ p{
 @media (max-width: 768px) {
   p {
       font-size: 16px; 
-      align-items: center;
-  }
-  image-text-container {
-    flex-direction: column; 
-    text-align: center;
-    margin-bottom: 10px;
-    align-items:center;
-  }
-
-  .rounded-image {
-    margin-bottom: 15px;
-  }
+    }
 }
