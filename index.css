@@ -1,0 +1,16 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <200>;
+    font-style: normal;
+    margin: auto;
+  }
+header{
+    text-align: center;
+    font-size:xx-large;
+    padding: 15px;
+}
+.navbar{
+background-color: gray;
+height: 15px;
+}
