@@ -1,14 +1,29 @@
-body {
+body{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: <200>;
     font-style: normal;
     margin: 0px;
   }
+.image-text-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  
+}
+.rounded-image {
+  border-radius: 15px; 
+  margin: 30px; 
+  width: 300px; 
+  height: auto; 
+  }
 header{
     text-align: center;
     font-size:xx-large;
     padding: 15px;
+}
+.devinfo{
+  margin: 30px;
 }
 .navbar{
 background-color: gray;
@@ -20,10 +35,6 @@ p{
 }
 @media (max-width: 768px) {
   p {
-        font-size: 16px; 
-  }
-  body {
-        padding: 15px;
-        margin: 0px
+      font-size: 16px; 
   }
 }
