@@ -1,7 +1,5 @@
 body{
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <200>;
     font-style: normal;
     margin: 0px;
   }
@@ -14,7 +12,7 @@ body{
 .rounded-image {
   border-radius: 15px; 
   margin: 30px; 
-  width: 300px; 
+  width: 350px; 
   height: auto; 
   }
 header{
@@ -30,11 +28,20 @@ background-color: gray;
 height: 15px;
 }
 p{
-  padding: 10px;
-  margin: 10px;
+  padding: 8px;
+  margin: 8px;
 }
 @media (max-width: 768px) {
   p {
-      font-size: 16px; 
-    }
+      font-size: 15px; 
+  }
+  image-text-container {
+    flex-direction: column; 
+    text-align: center;
+  }
+
+  .rounded-image {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
 }
