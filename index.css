@@ -3,7 +3,7 @@ body {
     font-optical-sizing: auto;
     font-weight: <200>;
     font-style: normal;
-    margin: auto;
+    margin: 10px;
   }
 header{
     text-align: center;
@@ -24,6 +24,6 @@ p{
         padding: 10px;
   }
   body {
-        padding: 15px; 
+        padding: 15px;
   }
 }
