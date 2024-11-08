@@ -6,7 +6,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 .myphoto{
-  margin:"4px"
+  margin:4px;
 }
 .image-text-container {
   display: flex;
