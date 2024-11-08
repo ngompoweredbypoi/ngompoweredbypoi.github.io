@@ -5,14 +5,15 @@ body {
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
 }
-
+.myphoto{
+  margin:"4px"
+}
 .image-text-container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row-reverse;
 }
-
 .rounded-image {
   border-radius: 15px;
   width: 100%;
@@ -20,68 +21,65 @@ body {
   height: auto;
   margin: 0 auto; /* Centers the image */
 }
-
 header {
   text-align: center;
   font-size: xx-large;
   padding: 15px;
 }
-
 .navbar {
   background-color: gray;
   height: 15px;
 }
-
 p {
   padding: 8px;
   margin: 10px;
   font-size: 16px;
 }
-
 .container {
   display: flex;
   flex-wrap: wrap;
 }
-
 .item {
   flex: 1 1 100%;
   box-sizing: border-box;
   padding: 10px;
 }
-
 @media (min-width: 600px) {
   .item {
       flex: 1 1 calc(50% - 20px);
   }
+  .myphoto{
+  margin:"0px"
+  }
 }
-
 @media (min-width: 900px) {
   .item {
       flex: 1 1 calc(33.333% - 20px);
   }
+  .myphoto{
+  margin:"0px"
+  }
 }
-
 img {
   max-width: 100%;
   height: auto;
 }
-
 @media (max-width: 1024px) {
   body {
       font-size: 16px;
   }
-
+  .myphoto{
+  margin:"0px"
+  }
   .devinfo {
       margin: 15px;
   }
-
   .image-text-container {
       flex-direction: column;
       text-align: center;
       align-items: center;
       justify-content: center;
   }
-
   .rounded-image {
       margin: 0 auto 15px auto; /* Centers the image and adds bottom margin */
   }
@@ -91,27 +89,28 @@ img {
   body {
       font-size: 16px;
   }
-
   .devinfo {
       margin: 15px;
   }
-  
+  .myphoto{
+  margin:"0px"
+  }
 }
-
   .image-text-container {
       flex-direction: column;
       text-align: center;
       align-items: center;
       justify-content: center;
   }
-
   .rounded-image {
       margin: 0 auto 15px auto; /* Centers the image and adds bottom margin */
   }
 }
-
 @media (max-width: 480px) {
   body {
       font-size: 16px;
+  }
+    .myphoto{
+  margin:"0px"
   }
 }
