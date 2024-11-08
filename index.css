@@ -95,6 +95,8 @@ img {
   .devinfo {
       margin: 15px;
   }
+  
+}
 
   .image-text-container {
       flex-direction: column;
