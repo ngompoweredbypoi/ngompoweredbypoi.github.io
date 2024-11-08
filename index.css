@@ -47,17 +47,8 @@ p {
   body {
       font-size: 16px;
   }
-  .devinfo {
-      margin: 15px;
-  }
-  .myphoto{
-  margin:"0px"
-  }
 }
   .image-text-container {
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
+       flex-wrap:wrap;
   }
 }
