@@ -1,9 +1,8 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  margin: 0px;
+  margin: 2px;
   font-size: 16px;
-  -webkit-text-size-adjust: 100%;
 }
 .myphoto{
   margin:4px;
@@ -32,7 +31,7 @@ header {
 }
 p {
   padding: 8px;
-  margin: 10px;
+  margin:  6px;
   font-size: 16px;
 }
 .container {
@@ -60,8 +59,5 @@ p {
       text-align: center;
       align-items: center;
       justify-content: center;
-  }
-  .rounded-image {
-      margin: 0 auto 15px auto; /* Centers the image and adds bottom margin */
   }
 }
