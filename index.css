@@ -5,7 +5,7 @@ body {
   font-size: 16px;
 }
 .myphoto{
-  grid:4px;
+  margin:4px;
 }
 .image-text-container {
   display: flex;
@@ -51,7 +51,7 @@ p {
       margin: 15px;
   }
   .myphoto{
-  grid:"0px"
+  margin:"0px"
   }
 }
   .image-text-container {
