@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'enfont';
+    src: url('fonts/Montserrat.ttf') format('truetype');
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'arfont';
+    src: url('fonts/Rubik.ttf') format('truetype');
+    font-style: normal;
+  }
+
+  ::selection {
+    color: black;
+    background-color: rgba(128, 128, 128, 0.288);
+  }
+
 .langbody {
     height: 80vh;
     display: flex;
@@ -7,11 +24,11 @@
 }
 
 .langbody :lang(en) {
-    font-family: "Montserrat", sans-serif;
+    font-family: "enfont",  sans-serif;
 }
 
 .langbody :lang(ar){
-    font-family: "Rubik", serif;
+    font-family: "arfont", sans-serif;
 }
 
 .langdiv {
@@ -23,7 +40,7 @@
 .langdiv p {
     font-size: 24px; 
     margin-bottom: 5px;
-    font-weight: 500; 
+    font-weight: 500;
 }
 
 .engtitle{
@@ -74,7 +91,7 @@
 }
 
 .eninfo {
-    font-family: "Montserrat", sans-serif;
+    font-family: "enfont", sans-serif;
     font-style: normal;
     margin: 0px;
     font-size: 16px;
@@ -82,12 +99,12 @@
 }
 
 .arinfo {
-    font-family: "Montserrat", sans-serif;
+    font-family: "enfont", sans-serif;
     font-style: normal;
     margin: 0px;
     font-size: 16px;
     -webkit-text-size-adjust: 100%;
-    font-family: "Rubik", sans-serif;
+    font-family: "arfont", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
