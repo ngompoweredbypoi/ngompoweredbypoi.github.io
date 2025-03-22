@@ -35,12 +35,12 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-weight: 500;
 }
 
 .langdiv p {
     font-size: 24px; 
     margin-bottom: 5px;
-    font-weight: 500;
 }
 
 .engtitle{
